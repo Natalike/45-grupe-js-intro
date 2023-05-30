@@ -138,3 +138,31 @@ console.log(martynas);
 
 const lentele = ``;
 const lentele1 = "";
+
+/*  8*1=8
+    8*2=16
+    8*3=24
+    8*4=32
+    8*5=40
+    8*6=48
+    8*7=56
+    8*8=64
+    8*9=72
+    8*10=80
+    */
+
+const number1 = "1";
+const number2 = "2";
+const number3 = "3";
+const number4 = "4";
+const number5 = "5";
+const number6 = "6";
+const number7 = "7";
+const number8 = "8";
+const number9 = "9";
+
+const a = number8 * number1;
+console.log(a);
+
+const b = "8 * 1 = 8";
+console.log(a);
