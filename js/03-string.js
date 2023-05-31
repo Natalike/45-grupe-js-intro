@@ -136,8 +136,8 @@ console.log = ();*/
 const martynas = `Sveiki mano vardas ${name}, man yra ${age} metai ir man labai patinka ${tittle}, ${tittle1} ir ${tittle2}!`
 console.log(martynas);
 
-const lentele = ``;
-const lentele1 = "";
+const lentele22 = ``;
+const lentele23 = "";
 
 console.clear();
 
@@ -193,3 +193,86 @@ ${x} * ${i} = ${lygu8}
 `
 
 console.log(dlentele);
+
+const lentele22222 = '2';
+
+const daugiklis = 2;
+const n1 = 1;
+const n2 = 2;
+const n3 = 3;
+const n4 = 4;
+const n5 = 5;
+const n6 = 6;
+const n7 = 7;
+const n8 = 8;
+const n9 = 9;
+const n10 = 10;
+
+const lentele1 =  daugiklis + '*' + n1 + '=' + (daugiklis * n1) + '\r\n' + daugiklis + '*' + n2 + '=' + (daugiklis * n2) + '\r\n' + daugiklis + '*' + n3 + '=' + (daugiklis * n3) + '\r\n' + daugiklis + '*' + n4 + '=' + (daugiklis * n4) + '\r\n' + daugiklis + '*' + n5 + '=' + (daugiklis * n5) + '\r\n' + daugiklis + '*' + n6 + '=' + (daugiklis * n6) + '\r\n' + daugiklis + '*' + n7 + '=' + (daugiklis * n7) + '\r\n' + daugiklis + '*' + n8 + '=' + (daugiklis * n8) + '\r\n' + daugiklis + '*' + n9 + '=' + (daugiklis * n9) + '\r\n' + daugiklis + '*' + n10 + '=' + (daugiklis * n10) + '\r\n';
+
+console.log(lentele1);
+
+const multiplier = 3;
+let number = 0
+//
+const lentele3 = `
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+${multiplier} + ${++number} = ${multiplier * number}
+`;
+
+console.log(lentele3);
+
+
+let sum = multiplier;
+let index = 0;
+
+const lentele4 = `
+${multiplier} + ${++index} = ${sum += multiplier}
+`
+console.log(lentele4);
+
+console.clear();
+
+
+//           01234567
+const str = 'Pavyzdys';
+console.log(str, 8, '>>>', str.length);
+
+const empty = '   kjg   ';
+console.log(empty.length);
+
+const raide1 = str[0];
+console.log(raide1, 'p');
+
+console.log(str[1]);
+console.log(str[2]);
+console.log(str[3]);
+console.log(str[4]);
+
+let strIndex = 0;
+
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+
+console.clear();
+
+const userFirstName = 'chuck';
+const userLastName = 'Noris';
+
+const userAbbr = `${userFirstName[0]}.${userLastName[0]}.`;
+console.log(userAbbr);
