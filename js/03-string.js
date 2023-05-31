@@ -139,6 +139,8 @@ console.log(martynas);
 const lentele = ``;
 const lentele1 = "";
 
+console.clear();
+
 /*  8*1=8
     8*2=16
     8*3=24
@@ -151,18 +153,43 @@ const lentele1 = "";
     8*10=80
     */
 
-const number1 = "1";
-const number2 = "2";
-const number3 = "3";
-const number4 = "4";
-const number5 = "5";
-const number6 = "6";
-const number7 = "7";
-const number8 = "8";
-const number9 = "9";
 
-const a = number8 * number1;
-console.log(a);
 
-const b = "8 * 1 = 8";
-console.log(a);
+const x = 8;
+const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
+const e = 5;
+const f = 6;
+const g = 7;
+const h = 8;
+const i = 9;
+
+const lygu = x * a;
+const lygu1 = x * b;
+const lygu2 = x * c;
+const lygu3 = x * d;
+const lygu4 = x * e;
+const lygu5 = x * f;
+const lygu6 = x * g;
+const lygu7 = x * h;
+const lygu8 = x * i;
+
+const daugyboslentele = x + "*" + a + "=" + lygu + "\r\n" + x + "*" + b + "=" + lygu1 + "\r\n" + x + "*" + c + "=" + lygu2 + "\r\n" + x + "*" + d + "=" + lygu3 + "\r\n" + x + "*" + e + "=" + lygu4 + "\r\n" + x + "*" + f + "=" + lygu5 + "\r\n" + x + "*" + g + "=" + lygu6 + "\r\n" + x + "*" + h + "=" + lygu7 + "\r\n" + x + "*" + i + "=" + lygu8 + "\r\n";
+
+console.log(daugyboslentele);
+
+const dlentele = `
+${x} * ${a} = ${lygu}
+${x} * ${b} = ${lygu1}
+${x} * ${c} = ${lygu2}
+${x} * ${d} = ${lygu3}
+${x} * ${e} = ${lygu4}
+${x} * ${f} = ${lygu5}
+${x} * ${g} = ${lygu6}
+${x} * ${h} = ${lygu7}
+${x} * ${i} = ${lygu8}
+`
+
+console.log(dlentele);
