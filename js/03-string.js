@@ -230,6 +230,24 @@ ${multiplier} + ${++number} = ${multiplier * number}
 
 console.log(lentele3);
 
+let sum = 0;
+let index = 0;
+
+const lentele4 = `
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+`;
+
+console.log(lentele4);
+
 
 let sum = multiplier;
 let index = 0;

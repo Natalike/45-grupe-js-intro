@@ -13,11 +13,34 @@ Loginiai operatoriai:
 const isOld = true;
 console.log(isOld);
 
-const isFunny = falsse;
+const isFunny = false;
 console.log(isFunny);
 
+console.log('--------------');
+
 console.log(true && true);
+console.log(true && false);
+console.log(false && false);
+console.log(false && true);
 
-console.clear();
+console.log('--------------');
 
-console.log('-----------------------');
+console.log(true || true);
+console.log(true || false);
+console.log(false || false);
+console.log(false || true);
+
+console.log('--------------');
+
+console.log(true && true || false);
+console.log(true || false);
+console.log(true);
+
+console.log('--------------');
+
+console.log(false || false && true || false && false || true);
+console.log(false && true || false && false || true);
+console.log(false || false && false || true);
+console.log(false && false || true);
+console.log(false || true);
+console.log(true);
