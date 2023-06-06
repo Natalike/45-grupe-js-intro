@@ -91,3 +91,73 @@ const pazymiuKiekis = pazymiai.length;
 const pazymiuVidurkis = pazymiuSuma / pazymiuKiekis;
 
 console.log(`Pazymiu vidurkis yra ${pazymiuVidurkis}.`);
+
+//kiek skaiciu yra ne neigiamu?
+
+const number = [10, -7, 5, 77, 13, -9, 0, 14];
+let kiek = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    const number = numbers[i]; 
+    if (number >= 0) {
+        kiek++;
+    }
+}
+
+console.log('KIEK:', kiek);
+
+//const list = [];
+//for (let i = 0; i < list.length; i++) {
+//    const item = list[i];
+//}
+
+console.clear();
+
+//kiek yra zodziu kurie yra trumpesni nei 'Labas'?
+//kiek yra zodziu kurie yra ilgesni nei 'Labas'?
+//kiek yra zodziu kurie yra tokio pat ilgio kaip 'Labas'?
+//pavyzdinis zodis gali buti kintamas..
+
+const dictionary = ['Labas', 'rytas', 'sakau', 'tau', 'mano', 'mielas', 'mieste', 'ka', 'tu', 'Ka', 'vakare'];
+
+const trumpi = 0;
+const ilgu = 0;
+const toksPat = 0;
+const zodis = 'Labas';
+const ilgis = zodis.length;
+
+for (let i=0; i < dictionary.length; i++) {
+    const word = dictionary[i];
+    if (word.length === ilgis) {
+        toksPat++;
+    } else if (word.length < ilgis) {
+        trumpi++
+    } else {
+        ilgu++
+    }
+}
+
+console.log('Trumpesniu zodziu:', trumpi);
+console.log('Tokio pat ilgio zodziu:',toksPat);
+console.log('Ilgesniu zodziu:', ilgu);
+
+
+const masyvas1 = [1, 1, 1];
+const masyvas2 = [1, 2, 2, 3];
+const masyvas3 = [5, 4, 3, 2, 1];
+const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
+
+//kiek duotas masyvas turi ieskomo skaiciaus atveju (kiekio)?
+//m1:1 -> 3
+//m1:2 -> 0
+//m1:3 -> 0
+//m2:1 -> 1
+//m2:3 -> 0
+//m2:3 -> 0
+//kiek masyvas1 turi vienetu?
+//kiek masyvas2 turi vienetu?
+//kiek masyvas3 turi vienetu?
+//kiek masyvas4 turi vienetu?
+
+
+

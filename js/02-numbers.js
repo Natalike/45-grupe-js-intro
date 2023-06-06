@@ -8,10 +8,10 @@ Teigiami/neigiami
 Mistiniai: Begalybes ir NaN (not-a-number)
 
 Aritmetiniai operatoriai:
-+, -, /, *, **, ++, --
++, -, /, *, **, ++, --, %
 
 Priskirimo operatoriai:
-=, +=, -=, /=, *=, **=, ++=, --=
+=, +=, -=, /=, *=, **=, ++=, --=, %=
 
 Salia matematikos
 (, )
