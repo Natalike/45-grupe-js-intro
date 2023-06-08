@@ -1,4 +1,3 @@
-console.clear();
 
 /* 
 FOR - ciklas kuris kartoja procesa N-kartu 
@@ -7,7 +6,7 @@ for (1; 2; 3) {}
 2)ar kartoti? jei tenkina - kartojam, jei ne - baigiam darba;
 3)tai kaip keisti 1) dalies kintamaji?
 */
-
+/*
 const tekstas = 'Su gimimo diena';
 for (let i=0; i<5; i=i+1) {
     console.log(tekstas);
@@ -46,10 +45,14 @@ for (let n=8; n>=0; n-=2) {
     console.log(n);
 }
 
+console.clear();
 //kokie yra skaiciu suma nurodyta intervale (imtinai)?
+
+
 const start1 = 0;
 const end1 = 10;
 const step1 = 2
+
 for (let i=0; i<end1; i+=step1) {
     console.log(i);
 }
@@ -159,5 +162,25 @@ const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
 //kiek masyvas3 turi vienetu?
 //kiek masyvas4 turi vienetu?
 
+console.clear();
 
+function count(nuo, iki, daliklis) {
+    let kiekis = 0;
 
+    for (let i = nuo; i <=iki; i++) {
+        if (i % daliklis === 0) {
+            kiekis++;
+        }
+    }
+    return `skaiciu intevale tarp ${nuo} ir ${iki} besidalijanciu be liekanos is ${daliklis} yra 4 vienetai.`;
+}
+*/
+console.log(count(0, 11, 3));
+
+console.clear();
+
+function intervale(nuo, iki) {
+    return iki *(iki +1) / 2;
+}
+
+console.log(intervale(0, 1));

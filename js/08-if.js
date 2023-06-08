@@ -232,3 +232,5 @@ console.log(arPilnametis2(99), '-->', true);
 console.log(arPilnametis2(9), '-->', false);
 console.log(arPilnametis2(18), '-->', true);
 console.log(arPilnametis2(17.99999), '-->', false);
+
+
