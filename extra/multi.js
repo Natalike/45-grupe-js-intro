@@ -1,3 +1,4 @@
+console.clear();
 const multiplier = 3;
 let number = 0;
 
@@ -11,3 +12,4 @@ ${multiplier} + ${++number} = ${multiplier * number}
 `;
 
 export default lentele;
+

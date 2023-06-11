@@ -18,6 +18,7 @@ console.log(abc);
 console.log('-----------');
 
 //                  0         1         2       3       4
+
 const students = ['Jonas', 'Maryte', 'Petras', 'Ona', 'Martynas'];
 console.log(students);
 console.log(students[0]);
@@ -52,13 +53,13 @@ console.log(s3, '->', 15);
 console.log(students.length);
 console.log(abc.length);
 
+
 const empty = [];
 console.log(empty, empty.length);
 
 const index = students.length - 1;
 console.log('Paskutinis:', students[index]);
 
-console.clear();
 
 // Jonas: paskutinis pazymys yra 8.
 // Maryte: paskutinis pazymys yra 8.

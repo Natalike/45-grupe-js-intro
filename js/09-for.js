@@ -6,12 +6,23 @@ for (1; 2; 3) {}
 2)ar kartoti? jei tenkina - kartojam, jei ne - baigiam darba;
 3)tai kaip keisti 1) dalies kintamaji?
 */
-/*
+
+console.clear();
+
 const tekstas = 'Su gimimo diena';
 for (let i=0; i<5; i=i+1) {
     console.log(tekstas);
 }
 
+for (let i=10; i<17; i=i+1) {
+    console.log(`${i}) va ir tiek....`);
+}  
+
+for (let x=0; x<=15; x++) {
+    console.log(x + `....` );
+}
+
+/*
 const tekstas1 = 'Su gimimo diena';
 for (let i=0; i<5; i=i+1) {
     console.log(i, tekstas1);
@@ -21,31 +32,27 @@ const tekstas2 = 'Su gimimo diena';
 for (let i=10; i<17; i=i+1) {
     console.log(tekstas2);
 }
+*/
 
-for (let i=10; i<17; i=i+2) {
-    console.log(`${i} va ir tiek....`);
-}
 
-for (let x=0; x<=5; x++) {
-    console.log(x + `....` );
-}
+
 
 //visus teigiamus lyginius vienazenklius skaicius
+//0, 2, 4, 6, 8
 
 for (let i=0; i<=8; i +=2) {
     console.log(i);
 }
-
+console.log('----------------------');
 //isspausdinti teigiamus lyginius vienazenklius skaicius atbuline tvarka
-
-
-console.clear();
 
 for (let n=8; n>=0; n-=2) {
     console.log(n);
 }
 
-console.clear();
+console.log('----------------------------');
+
+
 //kokie yra skaiciu suma nurodyta intervale (imtinai)?
 
 
@@ -54,10 +61,11 @@ const end1 = 10;
 const step1 = 2
 
 for (let i=0; i<end1; i+=step1) {
-    console.log(i);
+    sum += i;
+    console.log('>>>>>>',i, sum);
 }
 
-console.clear();
+console.log('------------------------');
 
 const start = 0;
 const end = 10;
@@ -65,7 +73,7 @@ const step = 1;
 
 let sum = 0;
 
-for (let i = start; i <=end; i +=step) {
+for (let i = start; i <= end; i += step) {
     sum += i;
     console.log('>>>',i, sum);
 
@@ -73,6 +81,8 @@ for (let i = start; i <=end; i +=step) {
 
 console.log(sum);
 
+
+/*
 console.clear();
 
 //const pazymiai1 = [10, 2, 8, 4, 6];
@@ -143,7 +153,7 @@ for (let i=0; i < dictionary.length; i++) {
 console.log('Trumpesniu zodziu:', trumpi);
 console.log('Tokio pat ilgio zodziu:',toksPat);
 console.log('Ilgesniu zodziu:', ilgu);
-
+*/
 
 const masyvas1 = [1, 1, 1];
 const masyvas2 = [1, 2, 2, 3];
