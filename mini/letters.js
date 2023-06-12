@@ -29,9 +29,16 @@ function letters (str, step) {
 
     let shortText = '';
 
+    if (step )
+
     for (let i = step - 1;  i < str.length; i += step) {
             shortText += str[i];
         }
+    else {
+        for (let i=str.length + step; i >=0;) {
+            shortText += str[i];
+        }
+    }
     
 
     return shortText;
