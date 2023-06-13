@@ -51,3 +51,44 @@ console.log(student['age']);
 console.log(student['name']);
 console.log(student['isMarried']);
 
+
+console.clear();
+
+const car = {
+    marke: 'Audi',
+    model: '80',
+    color: 'red',
+    price: 500,
+    doors: 4,
+    wheel: 'left',
+}
+
+console.log(car);
+
+const noriuSuzinoti = 'color';
+
+const reiksme = car[noriuSuzinoti];
+console.log('>>>', reiksme);
+
+console.log('---------------');
+
+const child = {
+    name: 'Maryte',
+    age: 5,
+    parents: {
+        father: {
+            name: 'Jonas',
+            age: 32,
+            phones: [1111, 4444, 5555]
+        },
+
+        mother: {
+            name: 'Ona',
+            age: 35,
+            phones: [2222, 3333]
+        },
+    },
+};
+
+const info = child.parents.mother;
+console.log(info);
