@@ -90,5 +90,45 @@ const child = {
     },
 };
 
-const info = child.parents.mother;
+const info = child.parents.at(-1).phones.at(-1);
 console.log(info);
+
+console.clear();
+
+const augintinis = {
+    name: '',
+    age: 0,
+    items: [],
+};
+console.log(augintinis);
+
+augintinis.name = 'Rexas';
+console.log(augintinis);
+
+augintinis.age++;
+augintinis.items.push('kaulas-1');
+console.log(augintinis);
+
+augintinis.age++;
+augintinis.items.push('kaulas-2');
+console.log(augintinis);
+
+augintinis.age++;
+augintinis.items.push('kaulas-3');
+console.log(augintinis);
+
+augintinis.age++;
+augintinis.age++;
+augintinis.age++;
+augintinis.age++;
+augintinis.age++;
+augintinis.age++;
+augintinis.age++;
+augintinis.age++;
+console.log(augintinis);
+
+// augintinis.name = 'Senasis ' + augintinis.name;
+// console.log(augintinis);
+
+augintinis.name = augintinis.name.replace('as', 'e');
+console.log(augintinis);
