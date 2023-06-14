@@ -87,5 +87,7 @@ console.log(studentIntro(stud3, marks3));
 console.log(studentIntro(stud4, marks4));
 
 
+//vardenis, Pavardenis -> V.P.
 
-
+const vardenis = (name,lastname) => name[0] + `.` + lastname[0] + `.`;
+console.log(vardenis(`Vardenis`, `Pavardenis`));
